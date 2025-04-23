@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">🌍 Travly</h1>
 
-## Getting Started
+<p align="center">
+  Uma plataforma feita por jovens desenvolvedores para facilitar o acesso à informação em viagens internacionais.
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/badge/Feito%20Com-React%20%2B%20TypeScript-61dafb?style=flat&logo=react" />
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blueviolet?style=flat" />
+  <img src="https://img.shields.io/badge/ODS-10.3-violet" />
+  <img src="https://img.shields.io/badge/Projeto%20Acadêmico-Ginásio%20Pernambucano-purple" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✈️ Sobre o Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Travly** é uma plataforma que centraliza informações úteis para quem deseja viajar para o exterior, como leis locais, documentação, clima, cultura, segurança e muito mais. Além disso, oferece uma comunidade colaborativa para viajantes trocarem experiências reais.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Inspirado por experiências frustrantes de viagem e casos reais, o Travly surgiu como solução para facilitar esse processo de pesquisa — com **confiabilidade, clareza e praticidade**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👨‍👩‍👧‍👦 Nosso Time
 
-## Learn More
+Feito com amor por estudantes do curso técnico em **Desenvolvimento de Sistemas** do **Ginásio Pernambucano em Recife**:
 
-To learn more about Next.js, take a look at the following resources:
+| Nome               | Função                            |
+|--------------------|-----------------------------------|
+| **Athina Farias**  | Front-end, UX/UI Designer |
+| **Cristóvão Martins** | Back-end |
+| **Júlia de Santana** | Diretora Back-end |
+| **Pablo David**    | Back-end |
+| **Thais Victoria** | Diretora Front-end |
+| **Thayanne Stella** | Líder, Full-stack |
+| **Wydnney Henrique** | Front-end, Diretor Criativo |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Informações por país (visto, moeda, clima, cultura, leis)  
+✅ Feed com relatos de viajantes  
+✅ Interface intuitiva e responsiva  
+✅ Busca inteligente por destinos e temas
 
-## Deploy on Vercel
+## 💡 Diferenciais
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Centralização de Informações**  
+- **Comunidade Ativa de Viajantes**  
+- **Interface intuitiva e bonita**  
+- **Fonte confiável e curadoria de dados**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<p align="center">
+  <strong>Travly</strong> — viajando com informação, segurança e comunidade. 🌍💬
+</p>
