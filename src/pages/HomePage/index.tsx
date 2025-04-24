@@ -1,9 +1,6 @@
-const HomePage = () => { 
-    return (
-        <>
-            <p>Gatinhos de gravata.</p>
-        </>
-    )
- }
+import { FC } from 'react';
+import { HomePage } from './HomePage';
 
- export default HomePage;
+const Home: FC = () => <HomePage />;
+
+export default Home;

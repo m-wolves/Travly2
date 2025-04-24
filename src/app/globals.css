@@ -1,5 +1,9 @@
-body {
-  background: white;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+/* styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Estilos Globais ou Customizações aqui */
 }
