@@ -1,0 +1,10 @@
+.menuPais {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #565B69;
+    border-radius: 16px;
+    width: 240px;
+    line-height: 1;
+}
