@@ -31,7 +31,7 @@ Este documento define as diretrizes de desenvolvimento para o projeto. Por favor
 
 ### Linguagem
 - React com TypeScript (.tsx)
-- CSS com Tailwind CSS
+- CSS puro (Ia ser CSS com Tailwind mas por algum motivo não está funcionando algumas coisas)
 - Evitar JavaScript puro, priorizar tipagem estrita com TypeScript
 
 ### Estrutura de Componentes
@@ -54,13 +54,13 @@ src/
 
 ### Commits Semânticos
 Utilizar o padrão:
-- **feature**: adiciona componente de botão
-- **fix**: corrige bug no layout do header
-- **refactor**: ajusta estrutura do componente navbar
+- **feature**: adicionar algo novo
+- **fix**: corrige algum bug
+- **refactor**: ajusta estrutura de algo
 - **release**: prepara versão para produção
 
 ### Pull Requests
-- Sempre abrir PRs para develop
+- Sempre abrir PRs para a develop
 - Adicionar descrição do que foi feito
 - Pedir pelo menos 1 code review
 - Resolver conflitos antes do merge

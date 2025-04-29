@@ -3,8 +3,10 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: #565B69;
+
+    background-color: var(--colorMainComponentBackground);
+    color: var(--colorWhite);
+
     border-radius: 16px;
     width: 240px;
-    line-height: 1;
 }

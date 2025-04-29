@@ -1,14 +1,17 @@
 .buttonMenu {
     background: none;         
-    border: none;             
-    font-size: 2rem;          
-    color: #FFFFFF;             
-    cursor: pointer;   
-    transition: color 0.3s;  
+    border: none;    
     padding: 18px 0;  
-    width: 100%; 
-    font-family: 'Bebas Neue', Arial, sans-serif;        
-    border-bottom: 1px solid #7D818E; 
+    width: 100%;
+
+    cursor: pointer;
+
+    font-size: 2rem;  
+    font-family: 'Bebas Neue', Arial, sans-serif;  
+    color: var(--colorWhite);  
+    line-height: 1;
+
+    border-bottom: 1px solid var(--colorLightComponentBackground); 
 }
 
 .button-menu:last-child {
@@ -17,5 +20,6 @@
 
 .buttonMenu:hover,
 .buttonMenu.active {
-  color: #CEADFF; /* Roxo quando hover ou ativo */
+  color: var(--colorHoverPurple); /* Roxo quando hover ou ativo */
+  transition: color 0.3s;
 }

@@ -1,3 +1,28 @@
 /* styles/globals.css */
 
 @import "tailwindcss";
+
+:root {
+
+    /* Cores */
+    --colorMainPurple: #9775C9;
+    --colorHoverPurple: #CEADFF;
+    --colorDarkPurple: #6c4a97;
+
+    --colorWhite: #FFFFFF;
+    --colorHoverWhite: #E0CCFF;
+
+    --colorBackground: #25292F;
+    --colorMainComponentBackground: #565B69;
+    --colorDarkComponentBackground: #303741;
+    --colorLightComponentBackground: #7D818E;
+
+    --colorYellow: #FFD484;
+
+    /* --- */
+    /* Tipografia */
+
+    --fontTitle: 'Bebas Neue', Arial, sans-serif;
+    --fontText: 'League Spartan', Arial, sans-serif;
+
+}

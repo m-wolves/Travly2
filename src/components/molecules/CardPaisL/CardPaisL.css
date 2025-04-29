@@ -8,9 +8,9 @@
     width: 240px;
     height: 230px;
     padding: 16px;
-    background-color: #25292F;
+    background-color: var(--colorBackground);
     border-radius: 16px;
-    color: #FFFFFF;
+    color: var(--colorWhite);
 }
 
 .cardPaisL img {
@@ -19,7 +19,7 @@
 
 .cardPaisL h3 {
     font-size: 2.5rem;
-    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-family: var(--fontTitle);
     line-height: normal;
     margin-top: 12px;
 }

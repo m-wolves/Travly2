@@ -1,4 +1,3 @@
-
 # 🎨 Cores
 
 MainPurple: '#9775C9',
