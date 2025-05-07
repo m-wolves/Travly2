@@ -2,6 +2,9 @@
 
 Este documento define as diretrizes de desenvolvimento para o projeto. Por favor, siga estas boas práticas para manter o código organizado, legível e escalável. 〵(^ o ^)〴
 
+## Rodar a Aplicação
+Use `npm run dev` no terminal.
+
 ---
 
 ## Estrutura de Branches

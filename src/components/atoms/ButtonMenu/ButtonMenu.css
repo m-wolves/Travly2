@@ -12,14 +12,23 @@
     line-height: 1;
 
     border-bottom: 1px solid var(--colorLightComponentBackground); 
+
+    transition: color 0.3s;
 }
 
-.button-menu:last-child {
-  border-bottom: none; /* Remove a linha do último botão */
+.buttonMenu:last-child {
+  border-bottom: transparent; /* Remove a linha do último botão */
 }
 
 .buttonMenu:hover,
 .buttonMenu.active {
   color: var(--colorHoverPurple); /* Roxo quando hover ou ativo */
-  transition: color 0.3s;
+}
+
+.buttonMenu:hover p {
+  transform: scale(1.06);
+}
+
+.buttonMenu p {
+  transition: 0.3s;
 }

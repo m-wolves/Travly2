@@ -11,9 +11,9 @@ const ButtonMenu: React.FC<ButtonMenuProps> = ({ title, isActive = false, onClic
     return (
     <button
         className={`buttonMenu ${isActive ? 'active' : ''}`} // Classe dinâmica: adiciona 'active' se isActive for true
-        // onClick={onClick} // Chama a função passada quando clicar
+        onClick={onClick} // Chama a função passada quando clicar
     >
-        {title}
+        <p>{title}</p>
     </button>
     )
 }
