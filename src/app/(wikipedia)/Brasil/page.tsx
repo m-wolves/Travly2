@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import PagePais from '@/components/(wikipedia)/templates/PagePais'
+import Navbar from '@/components/(wikipedia)/sections/Navbar'
 
 const Brasil = () => {
     const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
@@ -22,8 +23,9 @@ const Brasil = () => {
 
     return (
         <div className='Brasil'>
+            <Navbar/>
             <PagePais
-                    nomePais='gatinho'
+                    nomePais='Brasil'
                     imagemBandeira='https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg'
                     activeTab={activeTab}
                     onTabChange={setActiveTab}
