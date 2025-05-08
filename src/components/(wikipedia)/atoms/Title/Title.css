@@ -1,0 +1,14 @@
+.Title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+
+    background-color: var(--colorMainPurple);
+    color: var(--colorWhite);
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    border-radius: 100px;
+}

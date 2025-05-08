@@ -1,0 +1,8 @@
+.BoxInfoPais {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px var(--shadow);
+}

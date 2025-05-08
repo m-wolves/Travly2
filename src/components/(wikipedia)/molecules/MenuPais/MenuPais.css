@@ -1,0 +1,12 @@
+.menuPais {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    background-color: var(--colorMainComponentBackground);
+    color: var(--colorWhite);
+
+    border-radius: 16px;
+    width: 240px;
+}

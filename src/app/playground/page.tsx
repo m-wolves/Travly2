@@ -1,19 +1,28 @@
-import CardPaisL from '@/components/molecules/CardPaisL';
-import MenuPais from '@/components/molecules/MenuPais';
+'use client'
+import React, { useState } from 'react';
+
+import CardPaisL from '@/components/(wikipedia)//molecules/CardPaisL'
+import MenuPais from '@/components/(wikipedia)//molecules/MenuPais'
+import ButtonFavoritar from '@/components/(wikipedia)/atoms/ButtonFavoritar'
+import BoxAvaliar from '@/components/(wikipedia)/atoms/BoxAvaliar'
+import ContentPais from '@/components/(wikipedia)/organisms/ContentPais'
+import NavPais from '@/components/(wikipedia)/organisms/NavPais'
+import ActionsPais from '@/components/(wikipedia)/organisms/ActionsPais';
+import PagePais from '@/components/(wikipedia)/templates/PagePais';
+import BoxInfoPais from '@/components/(wikipedia)/molecules/BoxInfoPais';
 
 const Playground = () => {
+    const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
+
     return (
         <div className="bg-gray-400">
             <h1>Playground</h1>
-            <CardPaisL
-                nomePais="Brasil"
-                imagemBandeira="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+            <BoxInfoPais 
+                linhas={[
+                    { esquerda: 'Capital', direita: 'Brasília'},
+                    { esquerda: 'Localização', direita: 'América do Sul'}
+                ]}
             />
-            <CardPaisL
-                nomePais="Argentina"
-                imagemBandeira="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
-            />
-            <MenuPais />
         </div>
     )
 }
