@@ -1,0 +1,21 @@
+.InfoPais {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.InfoPais .coluna {
+    background-color: var(--colorDarkComponentBackground);
+    padding: 0.75rem;
+    color: var(--colorWhite);
+    font-family: var(--fontText);
+}
+
+.InfoPais:not(:last-child) {
+    border-bottom: 1px solid var(--colorGrey); 
+}
+
+.InfoPais .coluna.esquerda {
+    font-weight: 600;
+    background-color: var(--colorMainPurple); 
+}
