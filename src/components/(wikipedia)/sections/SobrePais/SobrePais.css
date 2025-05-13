@@ -11,6 +11,8 @@
     gap: 20px;
     width: 100%;
     align-items: start;
+    justify-content: center;
+    text-align: center;
 }
 
 .SobrePais .ColunaInfo {
@@ -33,5 +35,7 @@
 
 .SobrePais .TextContent p {
     font-family: var(--fontText);
+    font-size: 1.3rem;
+    font-weight: 300;
     padding: 24px 16px 0 16px;
 }

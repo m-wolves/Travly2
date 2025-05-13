@@ -1,5 +1,6 @@
 import Title from '../../atoms/Title'
 import BoxInfoPais from '@/components/(wikipedia)/molecules/BoxInfoPais'
+import BoxContatos from '@/components/(wikipedia)/molecules/BoxContatos'
 
 import './SobrePais.css'
 
@@ -7,9 +8,10 @@ type SobrePaisProps = {
     title: string
     infos: { esquerda: string; direita: string }[][]
     texto: string
+    contatos: { numero: number; texto: string }[]
 }
 
-const SobrePais: React.FC<SobrePaisProps> = ({ title, infos, texto }) => {
+const SobrePais: React.FC<SobrePaisProps> = ({ title, infos, texto, contatos }) => {
     return (
         <div className='SobrePais'>
             <div className='Infos'>
@@ -19,8 +21,10 @@ const SobrePais: React.FC<SobrePaisProps> = ({ title, infos, texto }) => {
                     ))}
                 </div>
                 <div className='ColunaInfo'>
-                    <p>gatinhos!</p>
-                    <p>gatinhos!</p>
+                    <BoxContatos 
+                        contatos={contatos}
+                    />
+                    <p>Conversão de Moedas aqui.</p>
                 </div>
             </div>
             <div className='TextContent'>

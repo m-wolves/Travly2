@@ -23,14 +23,31 @@ const Brasil = () => {
     return (
         <div className='Brasil'>
             <PagePais
-                    nomePais='gatinho'
+                    nomePais='Brasil'
                     imagemBandeira='https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg'
                     activeTab={activeTab}
                     onTabChange={setActiveTab}
+
                     sobreProps={{
                         title: 'Sobre',
                         infos: [infosColuna1, infosColuna2],
                         texto: sobreTexto,
+                        contatos: [
+                            { numero: 190, texto: 'Polícia' },
+                            { numero: 192, texto: 'Ambulância' },
+                            { numero: 193, texto: 'Bombeiros' }
+                        ]
+                    }}
+
+                    pontosProps={{
+                        pontos: [
+                            {
+                                titulo: 'Cristo Redentor',
+                                descricao: 'O Cristo Redentor, presente dado pelos Franceses ao País Brasileiro no ano de 1931, é um monumento  localizado no Morro do Corcovado. A estátua de 38 metros de altura representa a figura de Jesus Cristo.',
+                                imagemUrl: '/assets/paises/brasil-assets/pontos/cristo.jpg',
+                                localizacao: 'Parque Nacional da Tijuca - Rio de Janeiro'
+                            }
+                        ]
                     }}
             />
         </div>

@@ -2,6 +2,8 @@
 
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&display=swap');
+
 :root {
 
     /* Cores */
@@ -21,11 +23,12 @@
     --colorYellow: #FFD484;
 
     --shadow: #36214477;
+    box-shadow: 0px 0px 6px var(--shadow);
 
     /* --- */
     /* Tipografia */
 
-    --fontTitle: 'Bebas Neue', Arial, sans-serif;
-    --fontText: 'League Spartan', Arial, sans-serif;
+    --fontTitle: "Bebas Neue", Arial, sans-serif;
+    --fontText: "League Spartan", Arial, sans-serif;
 
 }

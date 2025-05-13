@@ -16,6 +16,16 @@ type PagePaisProps = {
         title: string
         infos: { esquerda: string; direita: string }[][]
         texto: string
+        contatos: { numero: number; texto: string }[]
+    }
+
+    pontosProps: {
+        pontos: {
+        titulo: string
+        descricao: string
+        imagemUrl: string
+        localizacao: string
+        }[]
     }
 }
 
@@ -28,7 +38,8 @@ const PagePais: React.FC<PagePaisProps> = ({
     onTabChange,
 
     // Props do ContentPais
-    sobreProps
+    sobreProps,
+    pontosProps
 }) => {
     return (
         <div className="PagePais">
@@ -42,6 +53,7 @@ const PagePais: React.FC<PagePaisProps> = ({
                 <ContentPais
                     activeTab={activeTab}
                     sobreProps={sobreProps}
+                    pontosProps={pontosProps}
                 />
                 <ActionsPais />
             </div>
