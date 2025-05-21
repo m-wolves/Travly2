@@ -3,6 +3,7 @@ import './ContentPais.css'
 import SobrePais from '@/components/(wikipedia)/sections/SobrePais'
 import PontosTuristicos from '@/components/(wikipedia)/sections/PontosTuristicos'
 import Eventos from '@/components/(wikipedia)/sections/Eventos'
+import Cultura from '@/components/(wikipedia)/sections/Cultura'
 
 type ContentPaisProps = {
     activeTab: string
@@ -31,10 +32,18 @@ type ContentPaisProps = {
             data: string
         }[]
     }
+
+    culturaProps: {
+        culturas: {
+            titulo: string
+            descricao: string
+            imagem: string
+        }[]
+    }
 }
 
 // Conteúdo principal da página, cada tela traz um componente diferente
-const ContentPais: React.FC<ContentPaisProps> = ({ activeTab, sobreProps, pontosProps, eventosProps }) => {
+const ContentPais: React.FC<ContentPaisProps> = ({ activeTab, sobreProps, pontosProps, eventosProps, culturaProps }) => {
     return (
         <div className='ContentPais'>
             {activeTab === 'sobre' &&
@@ -59,7 +68,11 @@ const ContentPais: React.FC<ContentPaisProps> = ({ activeTab, sobreProps, pontos
                 </div>
             }
 
-            {activeTab === 'cultura' && <p>Cultura, arte e tradições.</p>}
+            {activeTab === 'cultura' &&
+                <div className='Cultura'>
+                    <Cultura {...culturaProps} />
+                </div>
+            }
         </div>
     )
 }

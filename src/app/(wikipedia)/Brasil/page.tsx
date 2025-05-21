@@ -185,6 +185,61 @@ const Brasil = () => {
                             }
                         ]
                     }}
+
+                    culturaProps={{
+                        culturas: [
+                            {
+                                titulo: 'História',
+                                descricao: 'O Brasil é um país com uma história conturbada. Por muitos anos o lugar foi explorado por outros países, o que o fez ter diversos problemas que até hoje são enfrentados. Contudo, devido a essa quantidade exorbitante de diferentes pessoas que entravam e saíam do país, o lugar é atualmente bastante diverso, possuindo culturas de variados lugares e incrementando com sua própria.',
+                                imagem: '/assets/paises/brasil-assets/cultura/historia.png'
+                            },
+                            {
+                                titulo: 'Culinária',
+                                descricao: 'A culinária do país também reflete essa diversidade. É comum ver feiras de culinária de outros países e até mesmo restaurantes de outras culturas. Porém, a graça não está apenas nas comidas de fora. As comidas típicas do país, como: a coxinha, o chimarrão (muito famosa no Sul do país), o acarajé (muito famoso na Bahia), a caipirinha e a feijoada são apenas algumas das muitas iguarias que podem ser encontradas nesse lugar.',
+                                imagem: '/assets/paises/brasil-assets/cultura/culinaria.png'
+                            },
+                            {
+                                titulo: 'Religiões',
+                                descricao: 'Em geral, o cristianismo é a principal religião do país, sendo representada pelo evangelismo, pelo catolicismo e também pelo espiritismo. Contudo, também existem outras com uma boa quantidade de seguidores, como a umbanda e o candomblé.',
+                                imagem: '/assets/paises/brasil-assets/cultura/religiao.png'
+                            },
+                            {
+                                titulo: 'Hábitos',
+                                descricao: 'Os brasileiros são um povo bastante cordial e caloroso. É comum as pessoas terem um maior contato físico entre si, seja com estranhos ou conhecidos. Ações como abraços e beijos na bochecha ao cumprimentar e se despedir são frequentes e podem até aumentar em quantidade dependendo da região. Além disso, o Brasil também é um país bastante festivo, possuindo uma grande quantidade de feriados e festividades, sejam elas oficiais do próprio governo, ou festividades mais locais.',
+                                imagem: '/assets/paises/brasil-assets/cultura/habitos.png'
+                            },
+                            {
+                                titulo: 'Higiene',
+                                descricao: 'A higiene dos brasileiros impressiona e decepciona ao mesmo tempo. Normalmente, é muito comum as pessoas tomarem diversos banhos durante o dia, provavelmente devido ao clima mais quente do país. Além disso, escovar os dentes é uma ação feita constantemente durante o dia após toda refeição. Em contrapartida, a limpeza pública nas ruas é triste. Infelizmente, é comum ver ruas e rios sujos, ver grande quantidade de lixo acumulada em diversos locais diferentes, entre outras visões que poluem um lindo país.',
+                                imagem: '/assets/paises/brasil-assets/cultura/higiene.png'
+                            },
+                            {
+                                titulo: 'Segurança',
+                                descricao: 'A segurança também é um caso preocupante para muitos brasileiros. A taxa de criminalidade apenas aumenta e, apesar de boa parte conseguir seguir suas vidas tranquilamente, é um hábito já costumeiro ser cuidadoso ao máximo, nunca vestindo acessórios que possam chamar atenção pelo seu valor, evitando usar celular e outros objetos tecnológicos no meio da rua e andar constantemente desconfiado ou com um pouco de medo. Isso se reflete até mesmo nas casas, que geralmente possuem muros altos, avisos de cachorros de grande porte e outras formas de proteção.',
+                                imagem: '/assets/paises/brasil-assets/cultura/seguranca.png'
+                            },
+                            {
+                                titulo: 'Arte',
+                                descricao: 'O país também é portador de um grande berço de artistas. Seja em pintura, literatura, música ou outros tipos de expressão artística, o Brasil sempre se faz muito presente, mesmo que talvez muito de sua arte não seja conhecida mundialmente. Ainda assim, é fundamental ao menos dar uma pequena olhada no trabalho de mestres como Machado de Assis, Clarice Lispector, Tarsila do Amaral, Romero Britto, Luiz Gonzaga, Jorge Vercillo, entre vários outros.',
+                                imagem: '/assets/paises/brasil-assets/cultura/arte.png'
+                            },
+                            {
+                                titulo: 'Vestimentas',
+                                descricao: 'Normalmente, a vestimenta do brasileiro é bem padrão, se assemelhando muito a de outros países, mas com menos peso e mais aberturas, devido ao clima mais quente do país. Contudo, em determinados locais do país, temos vestimentas mais diferenciadas, como, por exemplo, na Bahia, onde é possível ver o clássico traje da baiana. Derivado do candomblé, o traje é composto por saias longas e largas, blusas bordadas à mão e enfeites como colares e brincos enormes, formando um traje bem diferente e facilmente identificável.',
+                                imagem: '/assets/paises/brasil-assets/cultura/vestimentas.png'
+                            },
+                            {
+                                titulo: 'Folclore',
+                                descricao: 'O folclore brasileiro é uma parte icônica na cultura do país. Ele é formado por diversas lendas, mitos e contos que foram passados de geração em geração, sem uma origem definida e até podendo mudar de região em região. Lendas como a da Iara, do Saci, do Curupira, da mula sem cabeça, do boto cor de rosa e de outros são até hoje conhecidas e passadas para frente, sendo parte integral da cultura do Brasil.',
+                                imagem: '/assets/paises/brasil-assets/cultura/folclore.png'
+                            },
+                            {
+                                titulo: 'Esportes',
+                                descricao: 'Obviamente, não podíamos deixar os esportes de lado. O Brasil não é conhecido como país do futebol atoa, a prática do esporte é até hoje muito presente no dia a dia de muitos, servindo até como uma fuga e um futuro para os jovens. O Brasil possui, até o presente momento, a única seleção mundial com 5 copas do mundo ganhas, bem como diversas lendas do esporte tendo sido nascidas aqui, servindo como um grande marco para o país e fonte de orgulho. Além do futebol, o Brasil também é muito presente em esportes como vôlei, natação, skate, surfe, judô e outros. ',
+                                imagem: '/assets/paises/brasil-assets/cultura/esportes.png'
+                            }
+                        ]
+                    }}
             />
         </div>
     )
