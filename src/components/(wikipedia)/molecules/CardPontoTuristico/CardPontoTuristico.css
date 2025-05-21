@@ -1,12 +1,12 @@
 .CardPontoTuristico {
-    width: 656px;
-    height: 180px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     padding: 14px;
     gap: 24px;
+    margin-bottom: 12px;
 
     color: var(--colorWhite);
     background-color: var(--colorDarkComponentBackground);
@@ -14,6 +14,29 @@
 }
 
 .CardPontoTuristico img {
+    flex: 0 0 auto; 
+    align-self: stretch;
+    height: auto;
     width: 198px;
+    max-height: 100%;
+    object-fit: cover;
     border-radius: 24px;
+}
+
+.CardPontoTuristico .card-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--fontText);
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    padding: 8px 10px 0 0;
+}
+
+.CardPontoTuristico .card-conteudo h3 {
+    font-family: var(--fontTitle);
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
 }

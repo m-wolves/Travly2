@@ -1,4 +1,4 @@
-import Title from '../../atoms/Title'
+import Title from '@/components/(wikipedia)/atoms/Title'
 import BoxInfoPais from '@/components/(wikipedia)/molecules/BoxInfoPais'
 import BoxContatos from '@/components/(wikipedia)/molecules/BoxContatos'
 

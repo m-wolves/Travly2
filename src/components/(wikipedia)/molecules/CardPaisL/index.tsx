@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import './CardPaisL.css';
+import { FC } from 'react'
+import './CardPaisL.css'
 
 // Definindo o tipo das props do componente.
 type CardPaisXProps = {

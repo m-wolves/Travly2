@@ -27,6 +27,16 @@ type PagePaisProps = {
         localizacao: string
         }[]
     }
+
+    eventosProps: {
+        eventos: {
+            titulo: string
+            descricao: string
+            imagem: string
+            tipo: string
+            data: string
+        }[]
+    }
 }
 
 // Template para todas as telas de países, as props são definidas diretamente na página de cada país.
@@ -39,7 +49,9 @@ const PagePais: React.FC<PagePaisProps> = ({
 
     // Props do ContentPais
     sobreProps,
-    pontosProps
+    pontosProps,
+    eventosProps
+
 }) => {
     return (
         <div className="PagePais">
@@ -54,6 +66,7 @@ const PagePais: React.FC<PagePaisProps> = ({
                     activeTab={activeTab}
                     sobreProps={sobreProps}
                     pontosProps={pontosProps}
+                    eventosProps={eventosProps}
                 />
                 <ActionsPais />
             </div>

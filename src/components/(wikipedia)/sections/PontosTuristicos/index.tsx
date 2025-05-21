@@ -1,4 +1,6 @@
 import CardPontoTuristico from '@/components/(wikipedia)/molecules/CardPontoTuristico'
+import Title from '@/components/(wikipedia)/atoms/Title'
+
 import './PontosTuristicos.css'
 
 type Ponto = {
@@ -15,6 +17,7 @@ type PontosTuristicosProps = {
 const PontosTuristicos: React.FC<PontosTuristicosProps> = ({ pontos }) => {
     return (
         <div className="PontoTuristico">
+            <Title text='Pontos Turísticos' />
             {pontos.map((ponto, i) => (
                 <CardPontoTuristico key={i} {...ponto} />
             ))}
