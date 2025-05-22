@@ -23,6 +23,9 @@ const Brasil = () => {
     return (
         <div className='Brasil'>
             <PagePais
+                    backgroundImage="/assets/paises/brasil-assets/riodejaneiro.jpg"
+                    backgroundPosition="center top"
+
                     nomePais='Brasil'
                     imagemBandeira='https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg'
                     activeTab={activeTab}

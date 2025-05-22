@@ -5,6 +5,9 @@ import ActionsPais from "@/components/(wikipedia)/organisms/ActionsPais"
 import './PagePais.css'
 
 type PagePaisProps = {
+    backgroundImage: string
+    backgroundPosition?: string
+
     // NavPais
     nomePais: string
     imagemBandeira: string
@@ -49,6 +52,9 @@ type PagePaisProps = {
 
 // Template para todas as telas de países, as props são definidas diretamente na página de cada país.
 const PagePais: React.FC<PagePaisProps> = ({
+    backgroundImage,
+    backgroundPosition = 'center top',
+
     // Props da NavPais
     nomePais,
     imagemBandeira,
@@ -63,7 +69,12 @@ const PagePais: React.FC<PagePaisProps> = ({
 
 }) => {
     return (
-        <div className="PagePais">
+        <div className="PagePais"
+            style={{
+                background: `url(${backgroundImage}) ${backgroundPosition} no-repeat fixed`,
+                backgroundSize: 'cover'
+            }}
+            >
             <div className="Content">
                 <NavPais 
                     nomePais={nomePais}
