@@ -22,6 +22,9 @@ type PagePaisProps = {
         contatos: { numero: number; texto: string }[]
     }
 
+    TurismoSection: React.ComponentType;
+    LeisSection: React.ComponentType;
+
     pontosProps: {
         pontos: {
         titulo: string
@@ -63,6 +66,8 @@ const PagePais: React.FC<PagePaisProps> = ({
 
     // Props do ContentPais
     sobreProps,
+    TurismoSection,
+    LeisSection,
     pontosProps,
     eventosProps,
     culturaProps
@@ -85,6 +90,8 @@ const PagePais: React.FC<PagePaisProps> = ({
                 <ContentPais
                     activeTab={activeTab}
                     sobreProps={sobreProps}
+                    TurismoSection={TurismoSection}
+                    LeisSection={LeisSection}
                     pontosProps={pontosProps}
                     eventosProps={eventosProps}
                     culturaProps={culturaProps}

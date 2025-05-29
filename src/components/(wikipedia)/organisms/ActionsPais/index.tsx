@@ -1,5 +1,6 @@
 import BoxAvaliar from "@/components/(wikipedia)/atoms/BoxAvaliar"
 import ButtonFavoritar from "@/components/(wikipedia)/atoms/ButtonFavoritar"
+import Mapa from "@/components/(wikipedia)/molecules/Mapa"
 
 import './ActionsPais.css'
 
@@ -9,6 +10,7 @@ const ActionsPais = () => {
         <div className='ActionsPais'>
             <ButtonFavoritar />
             <BoxAvaliar />
+            <Mapa />
         </div>
     )
 }

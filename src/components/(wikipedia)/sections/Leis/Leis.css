@@ -1,0 +1,103 @@
+.Leis {
+    width: 748px;
+}
+
+.Leis .content {
+    padding: 0 16px;
+}
+
+.Leis hr {
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--colorGrey);
+    margin: 2.5rem 0;
+}
+
+.Leis h2 {
+    font-family: var(--fontTitle);
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 12px 0;
+}
+
+.Leis h3 {
+    font-family: var(--fontTitle);
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 16px 0;
+}
+
+.Leis h4 {
+    font-family: var(--fontText);
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 12px 0 0 0;
+}
+
+.Leis p {
+    font-family: var(--fontText);
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 12px 0;
+}
+
+.Leis li {
+    font-family: var(--fontText);
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.Leis ul {
+    list-style-type: disc;
+    padding: 8px 0 16px 1.5rem;
+}
+
+.Leis .box {
+    background-color: var(--colorMainPurple);
+    padding: 16px 38px;
+    border-radius: 20px;
+    margin: 36px 0;
+    text-align: center;
+}
+
+.Leis .atencao {
+    background-color: var(--colorYellow);
+    color: var(--colorBlackText);
+    padding: 16px 38px;
+    border-radius: 20px;
+    margin: 36px 0;
+    text-align: center;
+}
+
+.Leis .atencao h4 {
+    color: var(--colorRed);
+    font-weight: 600;
+}
+
+.Leis .atencao a {
+    color: var(--colorMainPurple);
+}
+
+.Leis label {
+    font-family: var(--fontTitle);
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.Leis .atencao a:hover {
+    color: var(--colorHoverPurple);
+}
+
+.Leis a {
+    color:var(--colorHoverPurple);
+    cursor: pointer;
+}
+
+.Leis a:hover {
+    color:var(--colorHoverWhite);
+    transition: 0.3s;
+    text-decoration: underline;
+}

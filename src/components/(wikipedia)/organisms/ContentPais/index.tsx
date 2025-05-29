@@ -23,6 +23,9 @@ type ContentPaisProps = {
         }[]
     }
 
+    TurismoSection: React.ComponentType;
+    LeisSection: React.ComponentType;
+
     eventosProps: {
         eventos: {
             titulo: string
@@ -43,7 +46,7 @@ type ContentPaisProps = {
 }
 
 // Conteúdo principal da página, cada tela traz um componente diferente
-const ContentPais: React.FC<ContentPaisProps> = ({ activeTab, sobreProps, pontosProps, eventosProps, culturaProps }) => {
+const ContentPais: React.FC<ContentPaisProps> = ({ activeTab, sobreProps, TurismoSection, LeisSection, pontosProps, eventosProps, culturaProps }) => {
     return (
         <div className='ContentPais'>
             {activeTab === 'sobre' &&
@@ -52,9 +55,17 @@ const ContentPais: React.FC<ContentPaisProps> = ({ activeTab, sobreProps, pontos
                 </div>
             }
 
-            {activeTab === 'turismo' && <p>Informações sobre turismo e imigração.</p>}
+            {activeTab === 'turismo' &&
+                <div className='Turismo'>
+                    <TurismoSection />
+                </div>
+            }
 
-            {activeTab === 'leis' && <p>Leis importantes do país.</p>}
+            {activeTab === 'leis' &&
+                <div className='Leis'>
+                    <LeisSection />
+                </div>
+            }
 
             {activeTab === 'pontos' &&
                 <div className='Pontos'>
