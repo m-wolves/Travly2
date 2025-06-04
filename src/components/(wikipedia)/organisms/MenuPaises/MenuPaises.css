@@ -1,0 +1,52 @@
+.MenuPaises {
+    background-color: var(--colorMainComponentBackground);
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1035px;
+    padding: 24px 0px;
+}
+
+.MenuPaises h1 {
+    font-family: var(--fontTitle);
+    font-size: 46px;
+    color: var(--colorWhite);
+    line-height: 90%;
+    margin-top: 24px;
+}
+
+.MenuPaises p {
+    font-family: var(--fontText);
+    font-size: 26px;
+    color: var(--colorGrey);
+    margin-bottom: 24px;
+}
+
+.MenuPaises .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 24px;
+}
+
+.MenuPaises .bandeiras {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 46px 24px;
+    margin: 24px 0px;
+}
+
+.MenuPaises span {
+    font-family: var(--fontText);
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--colorGrey);
+}

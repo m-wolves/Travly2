@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CardPaisL from '@/components/(wikipedia)/molecules/CardPaisL'
+import CardPaisL from '@/components/(wikipedia)/molecules/CardPaisX'
 import MenuPais from '@/components/(wikipedia)/molecules/MenuPais'
 
 import './NavPais.css'

@@ -1,8 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 
-import CardPaisL from '@/components/(wikipedia)//molecules/CardPaisL'
-import MenuPais from '@/components/(wikipedia)//molecules/MenuPais'
+import CardPaisL from '@/components/(wikipedia)/molecules/CardPaisX'
+import MenuPais from '@/components/(wikipedia)/molecules/MenuPais'
 import ButtonFavoritar from '@/components/(wikipedia)/atoms/ButtonFavoritar'
 import BoxAvaliar from '@/components/(wikipedia)/atoms/BoxAvaliar'
 import ContentPais from '@/components/(wikipedia)/organisms/ContentPais'
