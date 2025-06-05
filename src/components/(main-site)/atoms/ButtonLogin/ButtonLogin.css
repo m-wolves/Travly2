@@ -1,0 +1,16 @@
+.ButtonLogin {
+    background-color: var(--colorMainPurple);
+    color: var(--colorWhite);
+    font-family: var(--fontTitle);
+    font-size: 26px;
+    padding: 4px 16px;
+    border-radius: 10px;
+    width: fit-content;
+
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.ButtonLogin:hover {
+    background-color: var(--colorHoverPurple);
+}

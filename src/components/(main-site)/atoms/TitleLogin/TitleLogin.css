@@ -1,0 +1,6 @@
+.TitleLogin {
+    color: var(--colorMainPurple);
+    font-family: var(--fontTitle);
+    font-size: 50px;
+    padding: 4px;
+}

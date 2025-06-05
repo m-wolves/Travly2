@@ -10,19 +10,28 @@ import NavPais from '@/components/(wikipedia)/organisms/NavPais'
 import ActionsPais from '@/components/(wikipedia)/organisms/ActionsPais';
 import PagePais from '@/components/(wikipedia)/templates/PagePais';
 import BoxInfoPais from '@/components/(wikipedia)/molecules/BoxInfoPais';
+import ButtonLogin from '@/components/(main-site)/atoms/ButtonLogin';
+import TitleLogin from '@/components/(main-site)/atoms/TitleLogin';
+import LinkLogin from '@/components/(main-site)/atoms/LinkLogin';
+import InputLogin from '@/components/(main-site)/atoms/InputLogin';
+import AceitarTermos from '@/components/(main-site)/atoms/AceitarTermos';
+import CardLogin from '@/components/(main-site)/organisms/CardLogin';
 
 const Playground = () => {
     const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
+    const [mode, setMode] = useState<'login' | 'register' | 'forgot' | 'emailSent' | 'reset'>('login');
 
     return (
-        <div className="bg-gray-400">
+        <div className="bg-white">
             <h1>Playground</h1>
-            <BoxInfoPais 
-                linhas={[
-                    { esquerda: 'Capital', direita: 'Brasília'},
-                    { esquerda: 'Localização', direita: 'América do Sul'}
-                ]}
-            />
+            <ButtonLogin text='teste' />
+            <TitleLogin text='teste' />
+            <LinkLogin text='test ' txtLink='link' link='#' />
+            <LinkLogin txtLink='link' link='#' />
+            <InputLogin type='text' placeholder='texto' />
+            <InputLogin type='password' placeholder='senha' />
+            <AceitarTermos />
+            <CardLogin mode={mode} onChangeMode={setMode} />
         </div>
     )
 }

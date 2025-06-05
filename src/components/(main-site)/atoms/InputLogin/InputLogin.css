@@ -1,0 +1,45 @@
+.InputLoginWrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.InputLogin {
+    color: var(--colorLightComponentBackground);
+    border: solid 1px var(--colorGrey);
+    border-radius: 10px;
+    padding: 8px 16px;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.InputLogin:hover {
+    color: var(--colorHoverPurple);
+    border: solid 1px var(--colorHoverPurple);
+}
+
+.EyeButton {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: var(--colorGrey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+}
+
+.EyeButton:hover {
+    color: var(--colorHoverPurple);
+    transition: 0.2s ease-in-out;
+}
