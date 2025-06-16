@@ -1,4 +1,4 @@
-import ButtonEntrar from '@/components/(wikipedia)/atoms/ButtonEntrar';
+import ButtonEntrar from '@/components/(main-site)/atoms/ButtonEntrar';
 import Logo from '@/components/(main-site)/atoms/Logo';
 import MenuPaises from '@/components/(wikipedia)/organisms/MenuPaises';
 
@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
         <div className='HomePage'>
             <header>
-                <ButtonEntrar isLogged={false} />
+                <ButtonEntrar isLogged={false} link='/Login' />
             </header>
 
             <main>

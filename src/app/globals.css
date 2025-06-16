@@ -23,6 +23,7 @@
     --colorGrey: #A5ACC0;
     --colorYellow: #FFD484;
     --colorRed: #AB1C1C;
+    --colorHoverRed: #da6363;
 
     --shadow: #36214477;
     box-shadow: 0px 0px 6px var(--shadow);
@@ -36,4 +37,24 @@
 
 body {
     background-color: var(--colorBackground);
+}
+
+/* Inputs */
+
+/* Remove o olho nativo do Chrome/Edge */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-input-decoration,
+input[type="password"]::-webkit-input-suffix,
+input[type="password"]::-webkit-input-clear-button {
+    display: none !important;
+    pointer-events: none;
+    opacity: 0;
+}
+/* Remove o olho nativo do Firefox */
+input[type="password"]::-moz-input-password {
+    display: none;
 }

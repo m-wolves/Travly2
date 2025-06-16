@@ -1,4 +1,6 @@
 import { FC } from 'react'
+import '../LoginForm.css'
+
 import TitleLogin from '@/components/(main-site)/atoms/TitleLogin'
 import InputLogin from '@/components/(main-site)/atoms/InputLogin'
 import LinkLogin from '@/components/(main-site)/atoms/LinkLogin'
@@ -10,7 +12,7 @@ interface LoginFormProps {
 
 const LoginForm: FC<LoginFormProps> = ({ onChangeMode }) => {
     return (
-        <div>
+        <div className='LoginForm'>
             <TitleLogin text="Entrar" />
             <div>
                 <InputLogin type="text" placeholder="E-mail" />
@@ -21,7 +23,7 @@ const LoginForm: FC<LoginFormProps> = ({ onChangeMode }) => {
                 link="#"
                 onClick={() => onChangeMode?.('forgot')}
             />
-            <div>
+            <div className='buttons'>
                 <ButtonLogin text="Entrar" />
                 <hr />
                 <ButtonLogin
@@ -33,4 +35,4 @@ const LoginForm: FC<LoginFormProps> = ({ onChangeMode }) => {
     )
 }
 
-export default LoginForm
+export default LoginForm 

@@ -1,6 +1,6 @@
 export interface LinkLoginProps {
     text?: string;
     txtLink: string;
-    link: string;
+    link?: string;
     onClick?: () => void;
 }
