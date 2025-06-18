@@ -1,0 +1,46 @@
+.HomePage {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+
+.HomePage::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: var(--colorBackground) url('/assets/main-site/background.jpg') center bottom no-repeat fixed;
+    background-size: cover;
+    opacity: 0.5;
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+.HomePage > * {
+    position: relative;
+    z-index: 1;
+}
+
+.HomePage header {
+    margin: 24px 48px 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HomePage .LogoSection {
+    padding: 48px 0;
+}
+
+.HomePage main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg,#25292f 70%, #25292f00 100%);
+}

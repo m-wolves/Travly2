@@ -1,0 +1,46 @@
+.BoxContatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 314px;
+    border-radius: 22px;
+    padding: 18px 0;
+
+    background-color: var(--colorDarkComponentBackground);
+    box-shadow: 0px 0px 6px var(--shadow);
+    color: var(--colorWhite);
+}
+
+.BoxContatos h3 {
+    color: var(--colorHoverPurple);
+    font-size: 1.2rem;
+    font-family: var(--fontText);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.BoxContatos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.BoxContatos .iconPhone {
+    width: 36px;
+    height: 36px;
+    fill: var(--colorWhite);
+    color: var(--colorWhite);
+}
+
+.BoxContatos li {
+    font-family: var(--fontText);
+    font-size: 1.2rem;
+    font-weight: 300;
+}

@@ -1,0 +1,16 @@
+.LinkLogin {
+    color: var(--colorMainComponentBackground);
+    font-family: var(--fontText);
+    font-size: 20px;
+}
+
+.LinkLogin a {
+    color: var(--colorDarkPurple);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.LinkLogin a:hover {
+    color: var(--colorMainPurple);
+}

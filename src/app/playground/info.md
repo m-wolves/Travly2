@@ -1,0 +1,3 @@
+# Playground
+
+Aqui é onde são testados os componentes.

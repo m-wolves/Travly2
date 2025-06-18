@@ -1,0 +1,33 @@
+.LoginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.LoginForm .title {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.LoginForm p {
+    line-height: 18px;
+    font-family: var(--fonText);
+    font-size: 20px;
+}
+
+.LoginForm .space {
+    padding: 24px 0;
+}
+
+.LoginForm div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.LoginForm hr {
+    border: none;
+    border-top: 1px solid var(--colorGrey);
+}

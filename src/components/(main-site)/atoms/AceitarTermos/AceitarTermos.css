@@ -1,0 +1,60 @@
+.AceitarTermos {
+    color: var(--colorMainComponentBackground);
+    font-family: var(--fontText);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+}
+
+.AceitarTermos a {
+    color: var(--colorDarkPurple);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.AceitarTermos a:hover {
+    color: var(--colorMainPurple);
+}
+
+.AceitarTermos .checkbox-termos {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.AceitarTermos .custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--colorMainComponentBackground);
+    border-radius: 6px;
+    background: transparent;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    transition: border-color 0.2s, background 0.2s;
+    box-sizing: border-box;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.checkbox-termos:checked + .custom-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid 1px var(--colorMainPurple);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    pointer-events: none;
+}
+
+.AceitarTermos .custom-checkbox:hover {
+    border-color: var(--colorHoverPurple);
+}

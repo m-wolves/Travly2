@@ -1,0 +1,19 @@
+.CardLogin {
+    background-color: var(--colorWhite);
+    color: var(--colorMainComponentBackground);
+    font-family: var(--fontText);
+    box-shadow: 0px 0px 6px var(--shadow);
+    padding: 36px;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 500px;
+    height: auto;
+    gap: 12px;
+    border-radius: 26px;
+}

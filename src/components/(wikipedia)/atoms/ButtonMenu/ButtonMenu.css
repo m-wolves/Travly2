@@ -1,0 +1,34 @@
+.buttonMenu {
+    background: none;         
+    border: none;    
+    padding: 18px 0;  
+    width: 100%;
+
+    cursor: pointer;
+
+    font-size: 2rem;  
+    font-family: 'Bebas Neue', Arial, sans-serif;  
+    color: var(--colorWhite);  
+    line-height: 1;
+
+    border-bottom: 1px solid var(--colorLightComponentBackground); 
+
+    transition: color 0.3s;
+}
+
+.buttonMenu:last-child {
+  border-bottom: transparent; /* Remove a linha do último botão */
+}
+
+.buttonMenu:hover,
+.buttonMenu.active {
+  color: var(--colorHoverPurple); /* Roxo quando hover ou ativo */
+}
+
+.buttonMenu:hover p {
+  transform: scale(1.06);
+}
+
+.buttonMenu p {
+  transition: 0.3s;
+}

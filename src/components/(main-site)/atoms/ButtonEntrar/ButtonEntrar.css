@@ -1,0 +1,28 @@
+.ButtonEntrar {
+    display: flex;
+    background-color: var(--colorMainPurple);
+    width: fit-content;
+    padding: 4px 20px;
+    border-radius: 100px;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 6px var(--shadow);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.ButtonEntrar p {
+    font-size: 14px;
+    font-family: var(--fontText);
+    font-weight: 500;
+    color: var(--colorBlackText);
+}
+
+.ButtonEntrar .icon {
+    width: 18px;
+}
+
+.ButtonEntrar:hover {
+    background-color: var(--colorHoverPurple);
+}

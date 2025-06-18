@@ -1,3 +1,60 @@
 /* styles/globals.css */
 
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    /* Cores */
+    --colorMainPurple: #9775C9;
+    --colorHoverPurple: #CEADFF;
+    --colorDarkPurple: #6c4a97;
+
+    --colorWhite: #FFFFFF;
+    --colorHoverWhite: #E0CCFF;
+
+    --colorBlackText: #25292F;
+
+    --colorBackground: #25292F;
+    --colorMainComponentBackground: #565B69;
+    --colorDarkComponentBackground: #303741;
+    --colorLightComponentBackground: #7D818E;
+
+    --colorGrey: #A5ACC0;
+    --colorYellow: #FFD484;
+    --colorRed: #AB1C1C;
+    --colorHoverRed: #da6363;
+
+    --shadow: #36214477;
+    box-shadow: 0px 0px 6px var(--shadow);
+
+    /* --- */
+    
+    /* Tipografia */
+    --fontTitle: "Bebas Neue", Arial, sans-serif;
+    --fontText: "League Spartan", Arial, sans-serif;
+}
+
+body {
+    background-color: var(--colorBackground);
+}
+
+/* Inputs */
+
+/* Remove o olho nativo do Chrome/Edge */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-input-decoration,
+input[type="password"]::-webkit-input-suffix,
+input[type="password"]::-webkit-input-clear-button {
+    display: none !important;
+    pointer-events: none;
+    opacity: 0;
+}
+/* Remove o olho nativo do Firefox */
+input[type="password"]::-moz-input-password {
+    display: none;
+}

@@ -1,19 +1,28 @@
-import CardPaisL from '@/components/molecules/CardPaisL';
-import MenuPais from '@/components/molecules/MenuPais';
+'use client'
+import React, { useState } from 'react';
+
+import ButtonLogin from '@/components/(main-site)/atoms/ButtonLogin';
+import TitleLogin from '@/components/(main-site)/atoms/TitleLogin';
+import LinkLogin from '@/components/(main-site)/atoms/LinkLogin';
+import InputLogin from '@/components/(main-site)/atoms/InputLogin';
+import CardLogin from '@/components/(main-site)/organisms/CardLogin';
 
 const Playground = () => {
+    const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
+    const [mode, setMode] = useState<'login' | 'register' | 'forgot' | 'emailSent' | 'reset'>('login');
+
     return (
-        <div className="bg-gray-400">
+        <div className="bg-white">
             <h1>Playground</h1>
-            <CardPaisL
-                nomePais="Brasil"
-                imagemBandeira="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
-            />
-            <CardPaisL
-                nomePais="Argentina"
-                imagemBandeira="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
-            />
-            <MenuPais />
+            <ButtonLogin text='teste' />
+            <TitleLogin text='teste' />
+            <LinkLogin text='test ' txtLink='link' link='#' />
+            <LinkLogin txtLink='link' link='#' />
+            <div style={{width: 190}}>
+                <InputLogin type='text' placeholder='texto' error={true} errorMessage='O nome de usuário já existe.<br/>teste' />
+            </div>
+            <InputLogin type='password' placeholder='senha' />
+            <CardLogin mode={mode} onChangeMode={setMode} />
         </div>
     )
 }

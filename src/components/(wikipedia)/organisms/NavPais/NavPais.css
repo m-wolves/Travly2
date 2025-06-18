@@ -1,0 +1,9 @@
+.NavPais {
+    transform: translateY(-14vh); /* Move para cima sem afetar layout do restante */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
