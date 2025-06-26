@@ -60,10 +60,22 @@ function User() {
               </form>
 
               {/* Upload da foto */}
-              <form onSubmit={handleUpload}>
-                <input type="file" name="imagem" onChange={handleFileChange} className='atualizar-foto' />
-                <input type="submit" />
-              </form>
+             <form onSubmit={handleUpload}>
+  <input 
+    type="file" 
+    name="imagem" 
+    id="fileInput" 
+    onChange={handleFileChange} 
+    style={{ display: 'none' }} 
+  />
+
+  <label htmlFor="fileInput" className="escolher-imagem">
+    Escolher imagem
+  </label>
+
+  {/* <input type="submit" value="Enviar" className="escolher imagem" /> */}
+</form>
+
             </div>
           </div>
 

@@ -129,6 +129,19 @@ input[type="password"] {
     transition: background-color 0.3s ease;
 }
 
+.escolher-imagem {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  margin-top: 50px;
+}
+
+
 .deletar-conta {
     background-color: var(--colorMainComponentBackground);
     color: red;
