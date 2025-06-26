@@ -12,7 +12,7 @@ const EUA = () => {
     const infosColuna1 = [
         { esquerda: 'Capital', direita: 'Washington, DC.' },
         { esquerda: 'Localização', direita: 'América do Norte' },
-        { esquerda: 'Fuso Horário', direita: 'UTC-5 a -10' },
+        { esquerda: 'Fuso Horário', direita: 'UTC−4 a UTC−10' },
         { esquerda: 'Clima', direita: 'Temperado e Subtropical' }
     ]
 

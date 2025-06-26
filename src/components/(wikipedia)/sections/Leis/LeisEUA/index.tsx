@@ -34,7 +34,7 @@ const LeisEUA = () => {
                 <hr />
                 
                 <h3>6. Lei de Imigração e Nacionalidade de 1965</h3>
-                <p>A proposta dessa lei foi feita inicialmente por John F. Kennedy mas foi sancionada pelas mãos do presidente Lyndon B. Johnson no dia 3 de outubro de 1965, que tornou a assinatura um grande momento para a história televisiva do país, assinando o documento aos pés da estátua da liberdade. As leis mudaram significativamente as bases e diretrizes para a imigração americana, que até a data, somente favoreciam os europeus. A lei foi uma tentativa de promover igualdade de oportunidades para diferentes imigrantes de todo o mundo, exceto aqueles que fossem LGBT e portadores de deficiências físicas e mentais. A base do novo sistema de imigração era em três pilares: a reunião familiar, a mão de obra (empregos especialmente para os mais qualificados) e refúgio.</p>
+                <p>A proposta dessa lei foi feita inicialmente por John F. Kennedy mas foi sancionada pelas mãos do presidente Lyndon B. Johnson no dia 3 de outubro de 1965, que tornou a assinatura um grande momento para a história televisiva do país, assinando o documento aos pés da estátua da liberdade. As leis mudaram significativamente as bases e diretrizes para a imigração americana, que até a data, somente favoreciam os europeus. A lei foi uma tentativa de promover igualdade de oportunidades para diferentes imigrantes de todo o mundo, exceto aqueles que fossem LGBT ou portadores de deficiências físicas e mentais. A base do novo sistema de imigração era em três pilares: a reunião familiar, a mão de obra (empregos especialmente para os mais qualificados) e refúgio.</p>
 
                 <hr />
                 
