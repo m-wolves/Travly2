@@ -1,0 +1,39 @@
+.BacktoTop {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    z-index: 1000;
+    background: var(--colorMainPurple);
+    color: var(--colorWhite);
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px var(--shadow);
+    transition: opacity 0.3s, visibility 0.3s;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.BacktoTop.show {
+    opacity: 0.85;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.BacktoTop:hover {
+    opacity: 1;
+    background: var(--colorHoverPurple);
+}
+
+.icon-seta {
+    width: 28px;
+    height: 28px;
+    stroke-width: 3.5;
+}

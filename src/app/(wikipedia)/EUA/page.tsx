@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import PagePais from '@/components/(wikipedia)/templates/PagePais'
 import Navbar from '@/components/(wikipedia)/organisms/Navbar';
 
+import TurismoEUA from '@/components/(wikipedia)/sections/Turismo/TurismoEUA'
+import LeisEUA from '@/components/(wikipedia)/sections/Leis/LeisEUA'
+
 const EUA = () => {
     const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
 
@@ -25,7 +28,7 @@ const EUA = () => {
 
         <div className='EUA'>
 
-           <Navbar />
+            <Navbar />
 
             <PagePais
                     backgroundImage="/assets/paises/EUA-assets/EUA-fundo.jpeg"
@@ -46,6 +49,9 @@ const EUA = () => {
                             { numero: 911, texto: 'Bombeiros' }
                         ]
                     }}
+
+                    TurismoSection={TurismoEUA}
+                    LeisSection={LeisEUA}
 
                     pontosProps={{
                         pontos: [

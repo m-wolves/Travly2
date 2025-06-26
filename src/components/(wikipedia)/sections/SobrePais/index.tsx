@@ -24,7 +24,7 @@ const SobrePais: React.FC<SobrePaisProps> = ({ title, infos, texto, contatos }) 
                     <BoxContatos 
                         contatos={contatos}
                     />
-                    <p>Conversão de Moedas aqui.</p>
+                    <p>Conversão de Moedas em breve.</p>
                 </div>
             </div>
             <div className='TextContent'>

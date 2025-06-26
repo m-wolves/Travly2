@@ -3,7 +3,7 @@ import './Mapa.css'
 const Mapa = () => {
     return (
         <div className="Mapa">
-            <p>mapa aqui</p>
+            <p>Mapa Interativo em breve.</p>
         </div>
     )
 }

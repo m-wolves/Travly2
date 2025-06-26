@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
         <div className='HomePage'>
             <header>
-                <ButtonEntrar isLogged={false} link='/Login' />
+                <ButtonEntrar isLogged={false} />
             </header>
 
             <main>

@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import PagePais from '@/components/(wikipedia)/templates/PagePais';
 import Navbar from '@/components/(wikipedia)/organisms/Navbar';
 
+import TurismoCanada from '@/components/(wikipedia)/sections/Turismo/TurismoCanada'
+import LeisCanada from '@/components/(wikipedia)/sections/Leis/LeisCanada'
 
 const Canada = () => {
     const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
@@ -44,6 +46,9 @@ const Canada = () => {
                             { numero: 911, texto: 'Bombeiros' }
                         ]
                     }}
+
+                    TurismoSection={TurismoCanada}
+                    LeisSection={LeisCanada}
 
                     pontosProps={{
                         pontos: [

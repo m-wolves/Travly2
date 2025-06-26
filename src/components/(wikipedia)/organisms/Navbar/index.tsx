@@ -1,6 +1,8 @@
 import { User } from 'lucide-react' // importando íconesAdd commentMore actions
 import './Navbar.css'
 
+import ButtonEntrar from '@/components/(main-site)/atoms/ButtonEntrar'
+
 function Navbar(){
     return(
         <header>
@@ -15,10 +17,7 @@ function Navbar(){
 
 
                     <li>
-                            <a href="" className='user'>
-                                <User className='user-icon'/>
-                                Entrar/Criar uma conta
-                                </a>
+                        <ButtonEntrar/>
                     </li>
                 </ul>
             </nav>
@@ -26,4 +25,4 @@ function Navbar(){
     )
 }
 
-export default Navbar;
+export default Navbar

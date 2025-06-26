@@ -48,6 +48,7 @@
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.6rem;
+    list-style-type: disc;
 }
 
 .Turismo ul {
@@ -94,4 +95,15 @@
     color:var(--colorHoverWhite);
     transition: 0.3s;
     text-decoration: underline;
+}
+
+.three-column-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-column-list li {
+    width: 33.33%;
+    padding: 2px 4px;
+    box-sizing: border-box;
 }

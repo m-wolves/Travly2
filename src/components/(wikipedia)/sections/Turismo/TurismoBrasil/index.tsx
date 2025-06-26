@@ -2,7 +2,7 @@ import Title from '@/components/(wikipedia)/atoms/Title'
 
 import '../Turismo.css'
 
-const Turismo = () => {
+const TurismoBrasil = () => {
     return (
         <div className="Turismo">
             <Title text="Turismo e imigração" />
@@ -137,4 +137,4 @@ const Turismo = () => {
     )
 }
 
-export default Turismo
+export default TurismoBrasil

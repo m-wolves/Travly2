@@ -2,7 +2,7 @@ import Title from '@/components/(wikipedia)/atoms/Title'
 
 import '../Leis.css'
 
-const Leis = () => {
+const LeisBrasil = () => {
     return (
         <div className="Leis">
             <Title text="Leis" />
@@ -180,4 +180,4 @@ const Leis = () => {
     )
 }
 
-export default Leis
+export default LeisBrasil

@@ -6,7 +6,7 @@ import { ButtonEntrarProps } from './types'
 
 const ButtonEntrar:FC <ButtonEntrarProps> = ({ isLogged = false, link }) => {
     return (
-        <a className='ButtonEntrar' href={link}>
+        <a className='ButtonEntrar' href='/Login'>
             {isLogged ? <Home className='icon' /> : <User className='icon' />}
             <p>{isLogged ? 'Voltar para o Feed' : 'Entrar/Criar uma Conta'}</p>
         </a>
