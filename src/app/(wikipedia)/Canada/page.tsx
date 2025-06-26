@@ -1,6 +1,8 @@
 'use client'
 import React, { useState } from 'react';
-import PagePais from '@/components/(wikipedia)/templates/PagePais'
+import PagePais from '@/components/(wikipedia)/templates/PagePais';
+import Navbar from '@/components/(wikipedia)/organisms/Navbar';
+
 
 const Canada = () => {
     const [activeTab, setActiveTab] = useState('sobre') // Necessário para o Menu
@@ -22,6 +24,7 @@ const Canada = () => {
 
     return (
         <div className='Canada'>
+            <Navbar />
             <PagePais
                     backgroundImage="/assets/paises/canada-assets/canada-fundo.avif"
                     backgroundPosition="center center"

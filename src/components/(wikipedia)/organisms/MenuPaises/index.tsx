@@ -16,7 +16,7 @@ const MenuPaises = () => {
                     <TitleContinente text='América do Norte' />
                     <div className='bandeiras'>
                         <CardBandeira img='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1920px-Flag_of_Canada_%28Pantone%29.svg.png' text='Canadá' link='/Canada' />
-                        <CardBandeira img='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png' text='Estados Unidos' link='/Empty' />
+                        <CardBandeira img='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png' text='Estados Unidos' link='/EUA' />
                         <CardBandeira img='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png' text='México' link='/Empty' />
                     </div>
                 </div>

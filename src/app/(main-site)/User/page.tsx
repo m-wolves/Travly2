@@ -2,6 +2,7 @@
 
 import './user.css';
 import React, { useState } from 'react';
+import Navbar from '@/components/(wikipedia)/organisms/Navbar';
 
 function User() {
   const [file, setFile] = useState<File | null>(null);
@@ -26,6 +27,7 @@ function User() {
 
   return (
     <main>
+      <Navbar />
       <div className="caixa-conteudo">
         <div className="nome-perfil">
           <h1>Página de Perfil</h1>

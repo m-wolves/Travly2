@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import PagePais from '@/components/(wikipedia)/templates/PagePais'
+import Navbar from '@/components/(wikipedia)/organisms/Navbar';
 
 import TurismoBrasil from '@/components/(wikipedia)/sections/Turismo/TurismoBrasil'
 import LeisBrasil from '@/components/(wikipedia)/sections/Leis/LeisBrasil'
@@ -25,6 +26,8 @@ const Brasil = () => {
 
     return (
         <div className='Brasil'>
+            <Navbar />
+            
             <PagePais
                     backgroundImage="/assets/paises/brasil-assets/riodejaneiro.jpg"
                     backgroundPosition="center top"

@@ -1,0 +1,65 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-icon {
+    color: var(--colorDarkComponentBackground);
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--colorDarkComponentBackground);
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.user {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 220px;
+    justify-content: center;
+    height: 30px;
+    font-size: 100%;
+    background-color: var(--colorMainPurple);
+    border: 0;
+    margin-right: 20px;
+    cursor: pointer;
+    color: var(--colorDarkComponentBackground);
+    gap: 9px;
+    font-family: var(--fontText);
+}
+
+.user:hover {
+    background-color: var(--colorHoverPurple);
+    transition: 0.2s;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.nomeTravly {
+    font-family: var(--fontTitle);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 46px;
+    color: var(--colorWhite);
+    padding: 8% 0% 5% 0%;
+    letter-spacing: 1px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+}
+
+.img-logo {
+    width: 60px;
+}
